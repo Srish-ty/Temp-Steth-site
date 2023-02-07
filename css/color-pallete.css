@@ -1,25 +1,40 @@
 .bg-gra{
     background-color: #3e4040;
 }
+.text-gra{
+    color:#3e4040
+}
 
 .text-dim-tor{
-    color: #bacccc;
+    color: #fbfbfb;
 }
 
 .bg-dim-tor{
     background-color: #bacccc ;
 }
+.bg-dark-tor{
+    background-color: #66bdbd;
+}
 
 .bg-light-tor{
-    background-color: #a0ebeb ;
+    background-color: #46e3df ;
 }
 .text-light-tor{
-    color:#a0ebeb;
+    color:#46e3df;
+}
+
+.bg-tor{
+    background-color:#30c9c6 ;
 }
 
 .text-tor{
     color: #30c9c6;
-
+}
+.text-blue{
+    color:#419c9a
+}
+.bg-blue{
+    background-color: #51cfcc;
 }
 .text-dim{
     color:#232424

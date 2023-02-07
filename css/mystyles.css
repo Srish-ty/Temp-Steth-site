@@ -1,9 +1,9 @@
-#hdng {
+.hdng {
     color:  #bacccc;
     
 }
 
-#s {
+.s {
     color: #30c9c6;
 }
 
@@ -24,4 +24,17 @@
     border: none;
     border-radius: 5vw;
     text-decoration: none;
+}
+#buto{
+    background-color: #3e4040;
+    color:#f3f9f9;
+}
+#buto:hover{
+    background-color: #efefef;
+    border-color: #bacccc;
+    color: #232424 ;
+}
+
+#thirdse{
+    width: 100%;
 }
