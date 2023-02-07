@@ -7,7 +7,7 @@
     color: #30c9c6;
 }
 
-#navi{
+.navbar-nav{
     width: 70%;
     display: flex;
     justify-content: center;
