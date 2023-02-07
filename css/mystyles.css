@@ -7,19 +7,21 @@
     color: #30c9c6;
 }
 
-.bg-gra{
-    background-color: #3e4040;
+#navi{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-.text-dim-tor{
+.nav-item{
     color: #bacccc;
+    padding: 0.2vw 1vw;
 }
-
-.bg-dim-tor{
-    background-color: #bacccc ;
-}
-
-.text-tor{
-    color: #30c9c6;
-
+.nav-item:hover{
+    background-color: #30c9c6;
+    color: #232424;
+    border: none;
+    border-radius: 5vw;
+    text-decoration: none;
 }
