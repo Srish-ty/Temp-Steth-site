@@ -1,6 +1,5 @@
 .hdng {
     color:  #bacccc;
-    
 }
 
 .s {
@@ -12,17 +11,76 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    padding-left: 0vw;
+    
 }
 
 .nav-item{
     color: #bacccc;
     padding: 0.2vw 1vw;
+    border-radius: 5vw;
 }
+#menuico{
+    height: 10vw; width: 10vw;
+    display: inline;
+    position: relative;
+    top:3vw;
+    padding: 1vw;
+    border-radius: 2px;
+    margin:auto;
+}
+
+#navi2{
+    display: none;
+}
+
+
+    #menuico{
+        display:none;
+    }
+
+
+@media screen and (max-width:750px){
+    .hdng{
+        padding: 3vw 4vw;
+    }
+    
+    #menuico:hover{
+        background-color: #bacccc;
+    }
+    .navbar-nav{
+        flex-direction: column; 
+    }
+    .nav-item{
+        padding: 0vw 1vw;
+        border-radius: 3vw;
+    }
+
+    #firstse{
+        top: 16.5vw;
+    }
+    
+}
+
+/*
+#menuico:hover{
+    background-color: #30c9c6;
+}
+#menuico:hover #navi2{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+#menuico:hover #navScroll{
+    background-color: pink;
+}
+*/
+
 .nav-item:hover{
     background-color: #30c9c6;
     color: #232424;
     border: none;
-    border-radius: 5vw;
     text-decoration: none;
 }
 #buto{

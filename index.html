@@ -78,7 +78,12 @@
   <span class="ms-md-1 mt-1 fw-bolder me-md-5"><span class="hdng">STETH<span class="s">AIM</span"></span></span>
 </a>
 
-      <ul id="navi" class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+<span id="menuico">
+  <img style="width:100%;" src="./img/HAMBURGER.png" />
+</span>
+
+      <ul id="navi" class="navbar-nav navi mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+
       <li class="nav-item">
   <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
     Home
@@ -94,15 +99,37 @@
     Contact
   </a>
 </li>
+</ul>
 
+<!--- new section -->
+<ul id="navi2" onclick="showmenu()" >
+
+  <li class="nav-item">
+<a class="nav-link fs-5" href="index.html" aria-label="Homepage">
+Home
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link fs-5" href="content.html" aria-label="A sample content page">
+About Us
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link fs-5" href="system.html" aria-label="A system message page">
+Contact
+</a>
+</li>
+</ul>
     
+
+
 </div>
 </nav>
 
     <main>
       <div class="w-100 overflow-hidden position-relative bg-blue text-light-tor" data-aos="fade">
   <div class="position-absolute w-100 h-100 bg-blue opacity-75 top-0 start-0"></div>
-  <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center bg-light-tor">
+  <div id='firstse' class="container py-vh-4 position-relative mt-5 px-vw-5 text-center bg-light-tor">
   <div class="row d-flex align-items-center justify-content-center py-vh-5 bg-light-tor">
     <div class="col-12 col-xl-10">
       <span class="h5 text-dim fw-lighter">Our Mission</span>
@@ -540,6 +567,8 @@ AOS.init({
     console.log(scrollpos)
   })
 </script>
+
+<script src="./js/myScript.js"></script>
 
   </body>
 </html>
