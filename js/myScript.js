@@ -1,6 +1,6 @@
 
 
-let btn2 =document.getElementById('menuico');
+//let btn2 =document.getElementById('menuico');
 
 //btn2.innerHTML="This is to be clicked";
 
