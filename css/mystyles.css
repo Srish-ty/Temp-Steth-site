@@ -12,6 +12,7 @@
     justify-content: center;
     justify-content: space-around;
     padding-left: 0vw;
+    border:0px solid red;
     
 }
 
@@ -19,7 +20,13 @@
     color: #bacccc;
     padding: 0.2vw 1vw;
     border-radius: 5vw;
+    border:0px solid white;
 }
+
+.n-i{
+    width: 50vw;
+}
+
 #menuico{
     height: 10vw; width: 10vw;
     display: inline;
@@ -31,7 +38,12 @@
 }
 
 #navi2{
-    display: none;
+    width:100%;
+    border: 0px solid #30c9c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
@@ -41,17 +53,26 @@
 
 
 @media screen and (max-width:750px){
+    #menuico{
+        display:inline;
+        margin-left:35vw;
+        padding: auto;
+    }
+
     .hdng{
         padding: 3vw 4vw;
     }
     
     #menuico:hover{
         background-color: #bacccc;
+        border-radius: 50px;
+        
     }
     .navbar-nav{
         flex-direction: column; 
     }
     .nav-item{
+        display: none;
         height: 9vw;
         padding: 0vw 1vw;
         border-radius: 3vw;
