@@ -46,11 +46,18 @@
 
 }
 
-
+.n-i{
+    display: none;
+}
     #menuico{
         display:none;
     }
+@media screen and (min-width:750px){
+    .n-i{
+        display: :none;
+    }
 
+    }
 
 @media screen and (max-width:750px){
     #menuico{
